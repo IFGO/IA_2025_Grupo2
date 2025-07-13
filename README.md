@@ -106,6 +106,6 @@ pytest --cov=src --cov-report=term-missing tests/
 
 ### 11. Autor(a)
 
-Desenvolvido por Raquel Pereira de Alcântara como parte do trabalho final da Pós em IA Aplicada – Instituto Federal de Goiás (IFG).
+Desenvolvido por Raquel Pereira de Alcântara como parte do trabalho final do primeiro módulo da Pós em IA Aplicada – Instituto Federal de Goiás (IFG).
 
 
