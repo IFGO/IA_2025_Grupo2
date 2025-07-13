@@ -1,5 +1,4 @@
 # crypto_pred
-
 Previsão do Preço de Fechamento de Criptomoeda
 
 Este projeto tem como objetivo analisar, modelar e prever preços de criptomoedas usando técnicas de machine learning, estatística e testes de hipótese. Ele foi desenvolvido como trabalho final da disciplina de Inteligência Artificial Aplicada.
@@ -94,3 +93,6 @@ Regressão Polinomial (com Ridge)
 ### 11. Autor(a)
 
 Desenvolvido por Raquel Pereira de Alcântara como parte do trabalho final da Pós em IA Aplicada – Instituto Federal de Goiás (IFG).
+=======
+Previsão do Preço de Fechamento de Criptomoeda
+>>>>>>> 7147f353955cba7545736bb36408874e7f0ed48d
