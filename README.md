@@ -7,6 +7,9 @@ Este projeto tem como objetivo analisar, modelar e prever preços de criptomoeda
 
 ## 📁 Estrutura de Pastas
 
+```shell
+$ tree
+.
 crypto_pred/
 ├── data/ # Arquivos CSV das criptomoedas
 ├── figuras/ # Gráficos e imagens geradas
@@ -25,6 +28,7 @@ crypto_pred/
 ├── notebook.ipynb # Análises exploratórias (EDA e testes)
 ├── requirements.txt # Dependências do projeto
 └── README.md # Este arquivo
+```
 
 ## Como Executar
 
