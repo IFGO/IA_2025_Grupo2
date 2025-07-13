@@ -8,8 +8,6 @@ Este projeto tem como objetivo analisar, modelar e prever preços de criptomoeda
 ## 📁 Estrutura de Pastas
 
 ```shell
-$ tree
-.
 crypto_pred/
 ├── data/ # Arquivos CSV das criptomoedas
 ├── figuras/ # Gráficos e imagens geradas
@@ -37,12 +35,14 @@ crypto_pred/
 ```bash
 git clone https://github.com/seu-usuario/crypto_pred.git
 cd crypto_pred
+```
 
 ### 2. Crie um ambiente virtual
-
+```bash
 python -m venv venv
 source venv/bin/activate    # Linux/macOS
 venv\Scripts\activate       # Windows
+```
 
 ### 3. Instale as dependências
 
