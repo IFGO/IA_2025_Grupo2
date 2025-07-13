@@ -94,21 +94,18 @@ pytest --cov=src --cov-report=term-missing tests/
 
 ### 9. Resultados Gerados
 
-*figures/: gráficos comparativos, boxplots, dispersão, etc.
-
-*teste_hipotese_retorno.csv: resultado dos testes de hipótese para cada criptomoeda
-
-*anova_entre_criptos.csv e anova_por_grupo_volatilidade.csv: resultados da ANOVA simples e agrupada
+- figures/: gráficos comparativos, boxplots, dispersão, etc.
+- teste_hipotese_retorno.csv: resultado dos testes de hipótese para cada criptomoeda
+- anova_entre_criptos.csv e anova_por_grupo_volatilidade.csv: resultados da ANOVA simples e agrupada
 
 ### 10. Modelos Implementados
 
-*MLPRegressor
-*Regressão Linear
-*Regressão Polinomial (com Ridge)
+- MLPRegressor
+- Regressão Linear
+- Regressão Polinomial (com Ridge)
 
 ### 11. Autor(a)
 
 Desenvolvido por Raquel Pereira de Alcântara como parte do trabalho final da Pós em IA Aplicada – Instituto Federal de Goiás (IFG).
-=======
-Previsão do Preço de Fechamento de Criptomoeda
->>>>>>> 7147f353955cba7545736bb36408874e7f0ed48d
+
+
