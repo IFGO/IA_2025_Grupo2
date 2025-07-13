@@ -33,8 +33,7 @@ crypto_pred/
 ### 1. Clone o projeto (ou baixe os arquivos)
 
 ```bash
-git clone https://github.com/seu-usuario/crypto_pred.git
-cd crypto_pred
+git clone [https://github.com/rpa1tera/crypto_pred.git]
 ```
 
 ### 2. Crie um ambiente virtual
@@ -45,54 +44,67 @@ venv\Scripts\activate       # Windows
 ```
 
 ### 3. Instale as dependências
-
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Treinar modelo e validar
 
+```bash
 python main.py --crypto Bitstamp_ETHUSD_d.csv --model linear
+```
 
 ou
 
+```bash
 python main.py --crypto Bitstamp_ETHUSD_d.csv --model mpl
+```
 
 ou 
 
+```bash
 python main.py --crypto Bitstamp_ETHUSD_d.csv --model poly
+```
 
 ### 5. Comparar todos os modelos
 
+```bash
 python main.py --crypto Bitstamp_ETHUSD_d.csv --model all
+```
 
 ### 6. Teste de hipótese de retorno médio
 
+```bash
 python main.py --testar-retorno --retorno-minimo 0.05
+```
 
 ### 7. Análise de variância (ANOVA)
 
+```bash
 python main.py --anova
+```
 
 ### 8. Testes Automatizados
 
 Para rodar os testes unitários: 
 
+```bash
 pytest --cov=src --cov-report=term-missing tests/
+```
 
 ### 9. Resultados Gerados
 
-figures/: gráficos comparativos, boxplots, dispersão, etc.
+*figures/: gráficos comparativos, boxplots, dispersão, etc.
 
-teste_hipotese_retorno.csv: resultado dos testes de hipótese para cada criptomoeda
+*teste_hipotese_retorno.csv: resultado dos testes de hipótese para cada criptomoeda
 
-anova_entre_criptos.csv e anova_por_grupo_volatilidade.csv: resultados da ANOVA simples e agrupada
+*anova_entre_criptos.csv e anova_por_grupo_volatilidade.csv: resultados da ANOVA simples e agrupada
 
 ### 10. Modelos Implementados
 
-MLPRegressor
-
-Regressão Linear
-
-Regressão Polinomial (com Ridge)
+*MLPRegressor
+*Regressão Linear
+*Regressão Polinomial (com Ridge)
 
 ### 11. Autor(a)
 
