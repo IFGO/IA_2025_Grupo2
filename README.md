@@ -50,6 +50,8 @@ pip install -r requirements.txt
 
 ### 4. Treinar modelo e validar
 
+A criptomoeda Ethereum (ETH) foi escolhida para conduzir as análises e testes principais do projeto por diversos motivos estratégicos e técnicos: relevância no mercado, volatilidade moderada, comportamento estável e possui histórico de dados. 
+
 ```bash
 python main.py --crypto Bitstamp_ETHUSD_d.csv --model linear
 ```
