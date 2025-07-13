@@ -9,15 +9,15 @@ Este projeto tem como objetivo analisar, modelar e prever preços de criptomoeda
 
 crypto_pred/
 ├── data/ # Arquivos CSV das criptomoedas
-├── figures/ # Gráficos e imagens geradas
+├── figuras/ # Gráficos e imagens geradas
 ├── estatisticas/ # Resultados salvos
 ├── src/ # Códigos-fonte modulares
 │ ├── data_load.py
 │ ├── features.py
 │ ├── models.py
 │ ├── evaluation.py
-│ ├── utils.py
-├── tests/ # Testes unitários
+│ └── utils.py
+├── tests/ # Testes unitários (pytest)
 │ ├── test_data_load.py
 │ ├── test_features.py
 │ └── test_models.py
