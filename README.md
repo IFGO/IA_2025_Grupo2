@@ -96,9 +96,13 @@ pytest --cov=src --cov-report=term-missing tests/
 
 ### 9. Resultados Gerados
 
-- figures/: gráficos comparativos, boxplots, dispersão, etc.
-- teste_hipotese_retorno.csv: resultado dos testes de hipótese para cada criptomoeda
-- anova_entre_criptos.csv e anova_por_grupo_volatilidade.csv: resultados da ANOVA simples e agrupada
+- figures/: gráficos comparativos, boxplots, dispersão.
+- estatisticas_resumo.csv: resumo estatístico descritivo das cotações históricas das 10 criptomoedas analisadas.
+- estatisticas_modelos_ETHUSD.csv: métricas quantitativas dos três modelos treinados (MLP, Regressão Linear e Regressão Polinomial) especificamente sobre a criptomoeda Ethereum (ETH).
+- teste_hipotese_retorno.csv: resultado dos testes de hipótese para cada criptomoeda.
+- anova_entre_criptos.csv e anova_por_grupo_volatilidade.csv: resultados da ANOVA simples e agrupada.
+
+
 
 ### 10. Modelos Implementados
 
