@@ -13,11 +13,11 @@ crypto_pred/
 ├── figuras/ # Gráficos e imagens geradas
 ├── estatisticas/ # Resultados salvos
 ├── src/ # Códigos-fonte modulares
-│ ├── data_load.py
-│ ├── features.py
-│ ├── models.py
-│ ├── evaluation.py
-│ └── utils.py
+│ ├── data_load.py # Funções para carregar e validar os dados das criptomoedas
+│ ├── features.py # Feature engineering para alimentar os modelos preditivos
+│ ├── models.py # Implementação e treinamento dos modelos de regressão
+│ ├── evaluation.py # Avaliação e comparação entre modelos com métricas e gráficos
+│ └── utils.py # Funções utilitárias para estatísticas, gráficos, testes de hipótese e ANOVA
 ├── tests/ # Testes unitários (pytest)
 │ ├── test_data_load.py
 │ ├── test_features.py
