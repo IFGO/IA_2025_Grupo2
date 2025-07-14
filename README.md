@@ -33,7 +33,7 @@ crypto_pred/
 ### 1. Clone o projeto (ou baixe os arquivos)
 
 ```bash
-git clone [https://github.com/rpa1tera/crypto_pred.git]
+git clone https://github.com/rpa1tera/crypto_pred.git
 ```
 
 ### 2. Crie um ambiente virtual
